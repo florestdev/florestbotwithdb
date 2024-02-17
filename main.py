@@ -4,7 +4,7 @@ import sys
 import pathlib
 import sqlite3
 
-token = 'MTIwODQyNjYyODczMzIwNjY0MA.GSUMNb.HSukolFELqAoBI83ZeMINDQ961r1vSSZnm3Tw4'
+token = 'Токен вашего бота'
 intents = discord.Intents.all()
 bot = commands.Bot(intents=intents, command_prefix='!')
 script_path = pathlib.Path(sys.argv[0]).parent
